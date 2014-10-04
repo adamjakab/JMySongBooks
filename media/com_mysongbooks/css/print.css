@@ -1,0 +1,26 @@
+/*
+    Overwrites for print output
+*/
+
+
+
+songline{
+    font-size: 150%;/*200%*/
+    line-height: 270%;
+    color:#333333;
+}
+
+chords{
+    font-size: 120%;
+    line-height: 100%;
+    top:-3px;
+    color:#000000;
+}
+
+chord{
+    margin-right:6px;
+}
+
+/*SONG*/
+.song{page-break-inside: avoid;}
+

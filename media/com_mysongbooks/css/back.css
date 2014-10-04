@@ -1,0 +1,76 @@
+/* Default stylesheet for back-end */
+
+
+
+/*-----------------------------------------------------JOOMLA OVERRIDES---*/
+h1.page-title{
+    background: transparent url(../images/component-32.png) 0 center no-repeat;
+    padding-left:42px;
+}
+h1.page-title span.icon-nope{display:none;}
+
+/*-----------------------------------------------------LIST OF RECORDS---*/
+table.table tbody tr.header {/*will inherit Joomla template's bg-color*/}
+table.table tbody tr.header td{background: none; color:#ffffff; border:none; text-align: center; font-size: 16px;}
+
+
+/*-----------------------------------------------------SEARCH & FILTERS---*/
+.js-stools{}
+.js-stools .js-stools-container-bar .item-count{
+    padding:4px 8px;
+}
+
+/*-----------------------------------------------------EDIT RECORD---*/
+
+
+
+/*-----------------------------------------------------DISPLAY RECORD---*/
+table.table.list thead tr th{background-color: #a6bac4;}
+
+
+/*-----------------------------------------------------Popup Dialogues---*/
+#bootstrapModal{}
+#bootstrapModal .modal-header{}
+#bootstrapModal .modal-header .title{}
+#bootstrapModal .modal-body{}
+#bootstrapModal .modal-body .content{}
+#bootstrapModal .modal-body .msg{color:#800000;}
+#bootstrapModal .modal-footer{}
+
+
+
+
+/*-----------------CHORD BOX*/
+.chordbox{
+    width:180px;
+    float:left;
+    border: 1px solid #dedede;
+    margin:5px;
+    text-align: center;
+}
+.jtab{text-align: center;}
+.chordbox code{font-size: 10px;}
+
+
+/*-----------------------------------------------------ICONS---*/
+/* 16X16 ICONS */
+.icon-16-alert {background-image: url(../images/16x16/alert.png);}
+.icon-16-on {background-image: url(../images/16x16/on.png);}
+.icon-16-off {background-image: url(../images/16x16/off.png);}
+.icon-16-add {background-image: url(../images/16x16/add.png);}
+.icon-16-remove {background-image: url(../images/16x16/remove.png);}
+.icon-16-reset {background-image: url(../images/16x16/reset.png);}
+.icon-16-calendar {background-image: url(../images/16x16/calendar.png);}
+
+/* 32X32 ICONS (TOOLBAR BUTTONS?) */
+.icon-32-on {background-image: url(../images/32x32/on.png);}
+.icon-32-off {background-image: url(../images/32x32/off.png);}
+.icon-32-sync {background-image: url(../images/32x32/sync.png);}
+
+/* 48X48 ICONS (CP BUTTONS?)*/
+.icon-48-cp {background-image: url(../images/48x48/cp.png);}
+
+/* Joomla3 - toolbar button icon corrections (while no bootstrap in J!25)*/
+/* iconset: http://www.nonr.nl/jui/index.php/icons */
+#toolbar .icon-back:before{content: "\e204";}
+

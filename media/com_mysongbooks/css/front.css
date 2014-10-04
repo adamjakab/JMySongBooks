@@ -1,0 +1,79 @@
+/* Default stylesheet for front-end */
+
+/*-----------------CHORD BOX*/
+.chordbox{
+    float:left;
+    padding:0;
+    border: 1px solid #dedede;
+    margin: 0 5px 5px 0;
+    text-align: center;
+}
+.jtab{text-align: center;}
+.chordbox h5{margin:0; padding:2px 0 0 0; font-size: 16px;font-weight: bold;}
+.chordbox h6{margin:0 0 5px 0; padding:0; font-size: 11px;min-height:16px;border-bottom: 1px solid #dedede;}
+
+/*-----------------CHORD LIST (chordboxes in same note)*/
+.cordsList{
+    page-break-inside: avoid;
+}
+
+
+/*-----------------TOOLBAR*/
+.toolbar{padding:5px;border-bottom: 1px solid #cdcdcd;background-color: #dedede;}
+.toolbar h1{margin:0;float:left;font-size:24px;line-height: 30px;}
+.toolbar ul{list-style: none; margin:0; text-align: right; float:right;}
+.toolbar ul li{display: inline-block;}
+
+/*-----------------SONG---------------*/
+.song{position:relative; /*background-color: rgba(255,0,0,0.1);*/}
+
+.song .song-header{}
+.song .song-header .song-origin-box{float:right;}
+.song .song-header .song-origin-box .song-origin-reference{font-size:50px; line-height:130%; margin-top:6px; text-align: right; color:#7f7f7f!important;}
+.song .song-header .song-origin-box .song-origin{font-size:9px; line-height:150%; text-align: right; margin: 0;color:#4f4f4f!important;}
+.song .song-header h1.song-title{margin: 24px 0 0 0;}
+.song h5.song-author{margin:5px 0 0 0; border-bottom: 1px solid #cdcdcd; font-size:12px; color:#4f4f4f!important;}
+.song p.song-origin-note{margin:0 0 0 0; font-size:10px; line-height:125%; color:#7f7f7f!important;}
+
+.song .song-body{}
+
+.song .song-body .song-body-lft{padding-top:50px;}
+.song .song-body .song-body-lft .lyrics{}
+
+
+.song .song-body .song-body-rgt{padding-top:50px;}
+.song .song-body .song-body-rgt .chords{}
+.song .song-body .song-body-rgt .chords .chordbox{float:none; margin: 0 0 5px 0;}
+
+
+
+.song .song-footer{}
+
+/*-----------------SONG MARKUP (CHORDS & STUFF)*/
+.song .lyrics{}
+
+songline{
+    display:block;
+    position: relative;
+    font-size: 200%;
+    line-height: 360%;
+    color:#4f4f4f!important;
+}
+songline.no-chords{
+    line-height: 120%;
+}
+
+chords{
+    display:inline-block;
+    position:absolute;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 100%;
+    top:3px;
+    padding: 0;
+    color:#000000!important;
+}
+
+chord{
+    margin-right:6px;
+}

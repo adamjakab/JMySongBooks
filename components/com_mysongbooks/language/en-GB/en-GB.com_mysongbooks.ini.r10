@@ -1,0 +1,11 @@
+; @version $Id$
+; com_mysongbooks site language file
+; @created on 23-Jul-2014
+
+MYSONGBOOKS_TIT_TITLE="Title"
+MYSONGBOOKS_TIT_ID="ID"
+MYSONGBOOKS_XML_DESCRIPTION="MySongBooks is a component for registering songs with chord notations for guitar players."
+MYSONGBOOKS_TIT_CONTENT="Content"
+MYSONGBOOKS_INVALID_TOKEN="Token validation failed!"
+MYSONGBOOKS_TIT_AUTHOR="Author"
+MYSONGBOOKS_TIT_ORIGIN="Origin"
